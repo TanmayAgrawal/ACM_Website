@@ -1,24 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./css/home.css">
-</head>
-<body>
-	<div id="bg">	
-		<div id="background_overlay">
-			<div class="navbar">
-				<div id="nav_logo"></div>
-				<div id="nav_items">
-					<div class="nav_item"><a href="#">Home</a></div>
-					<div class="nav_item"><a href="#">Blog</a></div>
-					<div class="nav_item"><a href="#">Events</a></div>
-					<div class="nav_item"><a href="#">Members</a></div>
-					<div class="nav_item"><a href="#">Achievements</a></div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/home.css">
+	</head>
+	<body>
+		<div id="bg">	
+			<div id="background_overlay">
+				<div class="navbar">
+					<div id="nav_logo"></div>
+					<div id="nav_items">
+						<div class="nav_item"><a href="#">Home</a></div>
+						<div class="nav_item"><a href="#">Blog</a></div>
+						<div class="nav_item"><a href="#"><b>Events</b></a></div>
+						<div class="nav_item"><a href="#">Members</a></div>
+						<div class="nav_item"><a href="#">Achievements</a></div>
+					</div>
 				</div>
+
+				<div class="events_sliders" id="left_slider" onclick="slideLeft()">
+					<img src="./skins/line_1.png"> 
+					<img src="./skins/line_2.png">
+				</div>
+
+				<div class="events_wrapper">
+				<div class="events_container">
+					<div class="event">
+						<div class="event_contents">
+							<div class="event_heading">
+								Front-end <br> SIG Lecture
+							</div>
+							<div class="event_text">
+							<p>This SIG aims at instilling interest for website development using various languages (HTML , CSS and JS) and frameworks.
+							Frontend development involves designing the user interface as well as displaying various styles and animations on the elements of the webpage.</p>
+							<p>This series first covers basic aspects of HTML, CSS and later delves into the world of JavaScript. After teaching JavaScript, the lectures introduces the most used JavaScript frameworks such as React and Angular.</p>
+							<p>Links: <br>
+								<ul>
+									<li><a href="#">Lecture 1- Repository Lecture</a></li>
+									<li><a href="#">Lecture 2- Slides and resources</a></li>
+								</ul>
+							Next Lecture Date: To be Decided.
+							</p>
+							</div>
+						</div>
+						<div class="event_image">
+							<img src="./skins/component_1.png">
+						</div>
+					</div>
+					<div class="event">
+						<div class="event_contents">
+							<div class="event_heading">
+								CISCO Capture The Flag Workshop
+							</div>
+							<div class="event_text">
+							<p>	A two-day Talk + Workshop on Hacking conducted by <br><strong>Kaarthik Sivakumar </strong> & <strong> Shyam Sundar Ramaswami</strong> from<br> #CISCO</p>
+							<p>	The participants got hand-on experience with running Kali Linux and got to work on actual malware! <br></p>
+							<p>	BITS ACM thanks the whole team from CISCO for making this event a huge success. We hope to do more such events in the future!</p>
+							</div>
+						</div>
+						<div class="event_image">
+							<img src="./skins/cisco.png">
+						</div>
+					</div>
+					<!-- <div class="event">
+						<div class="event_contents">
+							<div class="event_heading">
+								Front-end <br> SIG Lecture
+							</div>
+							<div class="event_text">
+							This SIG aims at instilling interest for website development using various languages (HTML , CSS and JS) and frameworks.
+							Frontend development involves designing the user interface as well as displaying various styles and animations on the elements of the webpage. 
+							This series first covers basic aspects of HTML, CSS and later delves into the world of JavaScript. After teaching JavaScript, the lectures introduces the most used JavaScript frameworks such as React and Angular. 
+							Links: 
+								<a href="#">Lecture 1- Repository Lecture</a><br>
+								<a href="#">Lecture 2- Slides and resources</a><br>
+							Next Lecture Date: To be Decided.
+							</div>
+						</div>
+						<div class="event_image">
+							<img src="./skins/component_1.png">
+						</div>
+					</div> -->
+				</div>
+					</div>
+				
+				<div class="events_sliders" id="right_slider" onclick="slideRight()">
+					<img src="./skins/line_2.png">
+					<img src="./skins/line_1.png"> 
+				</div>
+					
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
+	<script>
+		let i=0;
+		let a=("<div>yo</div>")
+		function slideLeft(){
+			++i;
+			document.getElementsByClassName('events_container')[0].style.left=i*100+'vw';
+		}
+		function slideRight(){
+			--i;
+			document.getElementsByClassName('events_container')[0].style.left=i*100+'vw';
+		}
+
+	</script>
 </html>

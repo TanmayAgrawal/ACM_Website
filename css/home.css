@@ -16,6 +16,9 @@
   	background-attachment: fixed;
 	background-size: cover;
 	color: white;
+	font-family: Josephin Sans;
+	box-sizing: border-box;
+	/* overflow: hidden; */
 }
 #background_overlay {
 	position: absolute;
@@ -30,8 +33,6 @@
 	height: 15vh;
 	width: 100%;
 	display: flex;
-	/* justify-content: space-between; */
-	font-family: Josephin Sans;
 	font-size: 28px;
 	box-sizing: border-box;
 	padding: 1%;
@@ -65,4 +66,89 @@ a{
 	color:white;
 	outline: none;
 	text-decoration: none;
+}
+
+.events_wrapper{
+	width: 100vw;
+	overflow: hidden;
+}
+
+.events_container{
+	width: 300vw;
+	height: 85vh;
+	position: relative;	
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	transition: left 0.5s;
+	overflow: hidden;
+}
+
+.event{
+	width: 100vw;
+	float: left;
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	padding: 5vh 7vw;
+	box-sizing: border-box;
+}
+.event_contents{
+	width: 40vw;
+	height: 100%;
+	margin-right: 5vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.event_heading{
+	font-size: 3.9rem;
+}
+
+.event_text{
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	margin: auto;
+}
+.event_text p{
+	margin: 0.5em;
+}
+
+.event_text ul{
+	list-style-type: none;
+}
+
+.event_text a{
+	text-decoration: underline;
+}
+
+.event_image{
+	width: 40vw;
+	height: 50vh;
+}
+
+.event_image>img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.events_sliders{
+	width: 4vw;
+	position: absolute;
+	top:50vh;
+	/* left: 2vw; */
+	padding: 2vh 2vw;
+	cursor: pointer;
+	z-index: 99;
+}
+
+.events_sliders>img{
+	margin: -4px;
+}
+
+#right_slider{
+	left: 92vw;
 }
