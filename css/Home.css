@@ -1,0 +1,209 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920__1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: rtue;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_8 {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_8 {
+	position: fixed;
+	overflow: visible;
+	width: 100%;
+	height: 14.26%;
+	left: 0%;
+	top: 0%;
+}
+#Rectangle_28_i {
+	fill: url(#Rectangle_28_i);
+}
+.Rectangle_28_i {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 85.74%;
+	left: 0%;
+	top: 14.26%;
+}
+#Group_1 {
+	position: absolute;
+	width: 54.6354%;
+	height: 48.426%;
+	left: 6.667%;
+	top: 30.56%;
+	overflow: visible;
+}
+#BITS-ACM_ {
+	filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 1));
+	left: 0%;
+	top: 0%;
+	position: absolute;
+	overflow: hidden;
+	width: 83.4128%;
+	height: 60.80%;
+	text-align: left;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 9.375vw;
+	color: rgba(255,255,255,1);
+}
+#Association_for_Computing_Mach {
+	left: 0%;
+	top: 47.80%;
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 21.80%;
+	text-align: left;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.34375vw;
+	color: rgba(255,255,255,1);
+}
+#building_the_future {
+	left: 0%;
+	top: 78.20%;
+	position: absolute;
+	overflow: visible;
+	width: 62.536%;
+	height: 21.8%;
+	text-align: left;
+	font-family: Iceland;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.604167vw;
+	color: rgba(0,200,255,1);
+}
+#Group_1_n {
+	position: fixed;
+	width: 97%;
+	height: 35.74%;
+	left: -0.26%;
+	top: -9.352%;
+	overflow: visible;
+}
+#Home {
+	left: 52.269%;
+	top: 45.855%;
+	position: absolute;
+	overflow: visible;
+	width: 5.423%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.875vw;
+	color: rgba(255,255,255,1);
+}
+#SIG {
+	opacity: 0.7;
+	left: 61.9865%;
+	top: 45.855%;
+	position: absolute;
+	overflow: visible;
+	width: 3.275%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875vw;
+	color: rgba(255,255,255,1);
+}
+#Events {
+	opacity: 0.7;
+	left: 71%;
+	top: 45.855%;
+	position: absolute;
+	overflow: visible;
+	width: 5.85235%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875vw;
+	color: rgba(255,255,255,1);
+}
+#Achievements_ {
+	opacity: 0.7;
+	left: 80.564%;
+	top: 45.855%;
+	position: absolute;
+	overflow: visible;
+	width: 11.8658%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875vw;
+	color: rgba(255,255,255,1);
+}
+#Blog {
+	opacity: 0.7;
+	left: 96.134%;
+	top: 45.855%;
+	position: absolute;
+	overflow: visible;
+	width: 3.9195%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875vw;
+	color: rgba(255,255,255,1);
+}
+#logo {
+	position: absolute;
+	width: 27.812%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	overflow: visible;
+}
+#ID3d_logo {
+	position: absolute;
+	width: 10.104%;
+	height: 43.426%;
+	left: 72.5%;
+	top: 33.148%;
+	overflow: visible;
+}
