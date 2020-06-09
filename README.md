@@ -5,9 +5,8 @@ Folders for respective file classes have been made.
 
 Prefer to write the whole css in a single file.
 
-Prototype:-
-https://xd.adobe.com/view/72402d8e-10c9-478b-7e51-81fd488f101a-0471/
+For all the pages, use the % sizes as in home.html . They have been calculated very precisely and carefully.
 
-font for everything - Josefin Sans
+The XD file for the project is in the designs folder.
 
 https://tanmayagrawal.github.io/ACM_Website/
