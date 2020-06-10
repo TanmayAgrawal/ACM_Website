@@ -1,0 +1,59 @@
+.mediaViewInfo {
+	--web-view-name: Team;
+	--web-view-id: Team;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-application: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Team;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920_2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Team;
+	--web-view-id: Team;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Path_288_n {
+	fill: url(#Path_288_n);
+}
+.About_us {
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	height: 85.74%;
+	left: 0%;
+	top: 14.26%;
+}
+#Rectangle_8 {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_8 {
+	position: fixed;
+	overflow: visible;
+	width: 100%;
+	height: 14.26%;
+	left: 0%;
+	top: 0%;
+}
