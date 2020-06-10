@@ -1,0 +1,188 @@
+.mediaViewInfo {
+	--web-view-name: Blog;
+	--web-view-id: Blog;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Blog;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Blog {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Blog;
+	--web-view-id: Blog;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_8 {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_8 {
+	position: fixed;
+	overflow: visible;
+	width: 100%;
+	height: 14.26%;
+	left: 0%;
+	top: 0%;
+}
+# {
+	position: absolute;
+	width: 1920px;
+	height: 926px;
+	left: 0px;
+	top: 154px;
+	overflow: visible;
+}
+#Rectangle_48_j {
+	fill: url(#Rectangle_48_j);
+}
+.From_Our_Blog {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 85.74%;
+	left: 0%;
+	top: 14.26%;
+}
+#From_Our_Blog_k {
+	left: 5.46875%;
+	top: 23.9815%;
+	position: absolute;
+	overflow: visible;
+	width: 31.6146%;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4.6875vw;
+	color: rgba(255,255,255,1);
+}
+#Repeat_Grid_12 {
+	position: absolute;
+	width: 89.0625%;
+	height: 43.426%;
+	left: 5.46875%;
+	top: 38.24%;
+	overflow: hidden;
+}
+#Group_159 {
+	position: absolute;
+	width: 30.468%;
+	height: 100%;
+	left: 0.058%;
+	top: 0%;
+	overflow: visible;
+}
+#Setting_Up_a_Vim_You_Will_Love {
+	left: 2.303%;
+	top: 69.723%;
+	position: absolute;
+	overflow: visible;
+	width: 95.97%;
+	height: 17.484%;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.550vw;
+	color: rgba(255,255,255,1);
+}
+#-written_by_Tirth_Jain___11_mi {
+	left: 2.303%;
+	top: 87%;
+	position: absolute;
+	overflow: visible;
+	width: 35.8925%;
+	height: 13%;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.041vw;
+	color: rgba(115,115,115,1);
+}
+#Image_6 {
+	filter: drop-shadow(3.5px 3.5px 6px rgba(78, 78, 78, 1));
+	position: absolute;
+	width: 100%;
+	height: 62.473%;
+	left: 0%;
+	top: 0%;
+	overflow: visible;
+}
+#Group_159_q {
+	position: absolute;
+	width: 30.468%;
+	height: 100%;
+	left: 34.6783%;
+	top: 0%;
+	overflow: visible;
+}
+#Group_159_u {
+	position: absolute;
+	width: 30.468%;
+	height: 100%;
+	left: 69.2982%;
+	top: 0%;
+	overflow: visible;
+}
+#Setting_Up_a_Vim_You_Will_Love_v {
+	left: 12px;
+	top: 327px;
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 96px;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#-written_by_Tirth_Jain___11_mi_w {
+	left: 12px;
+	top: 408px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	height: 61px;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(115,115,115,1);
+}
+#Image_6_x {
+	filter: drop-shadow(3.5px 3.5px 6px rgba(78, 78, 78, 1));
+	position: absolute;
+	width: 521px;
+	height: 293px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
