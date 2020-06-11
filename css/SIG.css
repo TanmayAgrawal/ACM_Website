@@ -1,3 +1,7 @@
+@font-face{
+	font-family: Josefin Sans;
+  	src: url(../fonts/static/JosefinSans-Regular.ttf);
+}
 .mediaViewInfo {
 	--web-view-name: SIG;
 	--web-view-id: SIG;
@@ -57,4 +61,79 @@
 	height: 85.74%;
 	left: 0%;
 	top: 14.26%;
+}
+#SIG_content{
+	position: relative;
+	top: 14.26vh;
+	right: 0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	text-align: end;
+	padding:0 5vw;
+	margin-bottom: 12vh;
+}
+#SIG_text{
+	display: flex;
+	flex-flow: column;
+	width: 50vw;
+	line-height: 5vh;
+}
+#SIG_heading{
+	position: relative;
+	top: 10vh;
+	font: Bold 8vh/10vh Josefin Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	padding-right: 5vw;
+}
+#SIG_desc{
+	position: relative;
+	top:10vh;
+	height: fit-content;
+	font-size: 4vh;
+	padding: 2vh;
+	color: #FFFFFF;
+	opacity: 0.72;
+}
+#Learn_more{
+	position: relative;
+	padding: 2vh;
+	margin-top: 10vh;
+	align-self: center;
+}
+#Learn_more_button{
+	width: 23vw;
+	height: 10vh;
+	text-align: center;
+	font: Bold 5vh/6vh Josefin Sans;
+	color: #FFFFFF;
+	border-radius: 50px;
+	cursor: pointer;
+	background: rgba(05,160,217,0.52) 0% 0% padding-box;
+}
+#SIG_img{
+	position: relative;
+	padding-left: 0 2vw;
+	width: 45vw;
+	top: 5vh;
+}
+#SIG_img>img{
+	height:80%;
+	width: 100%;
+}
+@media (max-width: 1000px){
+	#SIG_content{
+		flex-direction: column;
+		padding: 5vw;
+	}
+	#SIG_text{
+		width: 90vw;
+	}
+	#Learn_more{
+		top:80vh
+	}
+	#SIG_img{
+		width: 100%;
+	}
 }
