@@ -1,59 +1,3 @@
-@font-face{
-	font-family: Josefin Sans;
-  	src: url(../fonts/static/JosefinSans-Regular.ttf);
-}
-.mediaViewInfo {
-	--web-view-name: SIG;
-	--web-view-id: SIG;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-navigate-on-keypress: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: SIG;
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-}
-#Web_1920__3 {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255,255,255,1);
-	overflow: hidden;
-	--web-view-name: SIG;
-	--web-view-id: SIG;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-navigate-on-keypress: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
-}
-#Rectangle_8 {
-	fill: rgba(0,0,0,1);
-}
-.Rectangle_8 {
-	position: fixed;
-	overflow: visible;
-	width: 100%;
-	height: 14.26%;
-	left: 0%;
-	top: 0%;
-}
-#Path_287_n {
-	fill: url(#Path_287_n);
-}
 .SIG {
 	overflow: visible;
 	position: absolute;
@@ -63,15 +7,13 @@
 	top: 14.26%;
 }
 #SIG_content{
-	position: relative;
-	top: 14.26vh;
+	position: absolute;
+	top: 200vh;
 	right: 0;
-	width: 100vw;
 	display: flex;
 	align-items: center;
 	text-align: end;
 	padding:0 5vw;
-	margin-bottom: 12vh;
 }
 #SIG_text{
 	display: flex;
