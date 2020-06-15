@@ -13,18 +13,23 @@
 :root {
 	--web-view-ids: Home;
 }
+@font-face{
+	font-family: Josefin Sans;
+	src: url(../fonts/static/JosefinSans-Regular.ttf);
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
+	font-family: Josefin Sans;
 }
 #Web_1920__1 {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(255,255,255,1);
-	overflow: hidden;
+	/* overflow: hidden scroll; */
 	--web-view-name: Home;
 	--web-view-id: Home;
 	--web-scale-to-fit: true;
@@ -54,7 +59,7 @@
 	position: absolute;
 	overflow: visible;
 	width: 100%;
-	height: 85.74%;
+	height: 285.74vh;
 	left: 0%;
 	top: 14.26%;
 }
@@ -75,7 +80,6 @@
 	width: 83.4128%;
 	height: 60.80%;
 	text-align: left;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 9.375vw;
@@ -89,7 +93,6 @@
 	width: 100%;
 	height: 21.80%;
 	text-align: left;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 2.34375vw;
@@ -125,7 +128,6 @@
 	width: 5.423%;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 1.875vw;
@@ -140,7 +142,6 @@
 	width: 3.275%;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
@@ -155,7 +156,6 @@
 	width: 5.85235%;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
@@ -170,7 +170,6 @@
 	width: 11.8658%;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
@@ -185,7 +184,6 @@
 	width: 3.9195%;
 	white-space: nowrap;
 	text-align: center;
-	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;

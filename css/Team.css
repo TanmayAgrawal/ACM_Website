@@ -1,3 +1,7 @@
+@font-face{
+	font-family: Josefin Sans;
+  	src: url(../fonts/static/JosefinSans-Regular.ttf);
+}
 .mediaViewInfo {
 	--web-view-name: Team;
 	--web-view-id: Team;
@@ -56,4 +60,36 @@
 	height: 14.26%;
 	left: 0%;
 	top: 0%;
+}
+#Team_content{
+	position: absolute;
+	top: 14.26vh;
+	width: 100vw;
+	height: 85vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	margin: auto;
+	box-sizing: border-box;
+}
+#Team_heading{
+	color: white;
+	z-index: 9999;
+	font: bold 8vh/10vh Josefin Sans;
+}
+#Team_img{
+	width:75vw;
+	padding:5vh;
+}
+#Team_img>img{
+	max-width:100%;
+	max-height:100%;
+}
+@media (max-width:1200px){
+	#Team_img{
+		width:100vw;
+		padding: 5vw;
+	}
 }
