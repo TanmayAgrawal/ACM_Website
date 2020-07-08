@@ -19,7 +19,7 @@
 	box-sizing: border-box;
 	border: none;
 }
-#Blog {
+#blog {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -47,14 +47,14 @@
 	left: 0%;
 	top: 0%;
 }
-# {
+/* # {
 	position: absolute;
 	width: 1920px;
 	height: 926px;
 	left: 0px;
 	top: 154px;
 	overflow: visible;
-}
+} */
 #Rectangle_48_j {
 	fill: url(#Rectangle_48_j);
 }
