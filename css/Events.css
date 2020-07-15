@@ -1,70 +1,6 @@
-@font-face{
-	font-family: Josefin Sans;
-  	src: url(../fonts/static/JosefinSans-Regular.ttf);
-}
-.mediaViewInfo {
-	--web-view-name: Events;
-	--web-view-id: Events;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-application: true;
-	--web-navigate-on-keypress: true;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: Events;
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-	font-family:Josefin Sans;
-}
-#Web_1920_2 {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255,255,255,1);
-	overflow: hidden;
-	--web-view-name: Events;
-	--web-view-id: Events;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
-}
-#Path_288_n {
-	fill: url(#Path_288_n);
-}
-.Events {
-	overflow: visible;
-	position: absolute;
-	width: 100%;
-	height: 85.74%;
-	left: 0%;
-	top: 14.26%;
-}
-#Rectangle_8 {
-	fill: rgba(0,0,0,1);
-}
-.Rectangle_8 {
-	position: fixed;
-	overflow: visible;
-	width: 100%;
-	height: 14.26%;
-	left: 0%;
-	top: 0%;
-}
 #Events_content{
-	position: relative;
-	top: 14.26vh;
+	position: absolute;
+	top: 300vh;
 	right: 0;
 	width: 100vw;
 	display: flex;
@@ -83,7 +19,6 @@
 	top: 10vh;
 	font: Bold 8vh/10vh Josefin Sans;
 	letter-spacing: 0px;
-	color: #FFFFFF;
 	padding-right: 5vw;
 }
 #Events_desc{
@@ -92,21 +27,20 @@
 	height: fit-content;
 	font-size: 4vh;
 	padding: 2vh;
-	color: #FFFFFF;
 	opacity: 0.72;
 }
-#Learn_more{
+#Events_Learn_more{
 	position: relative;
 	padding: 2vh;
 	margin-top: 10vh;
 	align-self: center;
 }
-#Learn_more_button{
+#Events_Learn_more_button{
 	width: 23vw;
 	height: 10vh;
 	text-align: center;
-	font: Bold 5vh/6vh Josefin Sans;
-	color: #FFFFFF;
+	font-size:5vh;
+	padding-top: 1vh;
 	border-radius: 50px;
 	cursor: pointer;
 	background: rgba(05,160,217,0.52) 0% 0% padding-box;

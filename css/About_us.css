@@ -2,7 +2,7 @@
 	overflow: visible;
 	position: absolute;
 	width: 100%;
-	height: 85.74vh;
+	height: 100vh;
 	left: 0%;
 	top: 100vh;
 }
@@ -23,7 +23,6 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 4.63vh;
-	color: rgba(255,255,255,1);
 }
 
 .content-main .content {
@@ -31,7 +30,6 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 3.7vh;
-	color: rgba(255,255,255,1);
 }
 
 .statistics {
@@ -55,7 +53,6 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 6.48vh;
-	color: rgba(255,255,255,1);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -65,7 +62,6 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 3.33vh;
-	color: rgba(255,255,255,1);
 	margin-left: auto;
 	margin-right: auto;
 }
