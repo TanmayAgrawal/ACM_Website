@@ -87,7 +87,6 @@
 	top: 30.56%;
 	overflow: visible;
 }
-
 #BITS-ACM_ {
 	filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 1));
 	left: 0%;
@@ -127,34 +126,6 @@
 	font-size: 2.604167vw;
 	color: rgba(0,200,255,1);
 }
-
-@media only screen and (max-width: 768px) {
-#Group_1{
-	left:0;
-}
-#BITS-ACM_ {
-top: 60.703%;
-width: 100%;
-left: 50%;
-margin-right: -50%;
-letter-spacing: 0px;
-text-shadow: 0px 3px 6px #00000029;
-opacity: 1;
-}
-#Association_for_Computing_Mach {
-top: 71.253%;
-left: 50%;
-margin-right: -50%;
-width: 100%;
-}
-#building_the_future {
-	top: 85.932%;
-	left: 50%;
-	margin-right: -50%;
-	width: 100%;
-}
-}
-
 #navbar{
 	height: 25vh;
 }
@@ -243,7 +214,6 @@ width: 100%;
 	font-size: 1.875vw;
 }
 
-
 #ID3d_logo {
 	position: absolute;
 	width: 10.104%;
@@ -251,16 +221,4 @@ width: 100%;
 	left: 72.5%;
 	top: 33.148%;
 	overflow: visible;
-}
-
-@media only screen and (max-width: 768px) {
-	#ID3d_logo {
-		position: absolute;
-		top: 18.195%;
-		left: 50%;
-		width: 21.082%;
-		height: 29.204%;
-		margin-left: -9.541%;
-		overflow: visible;
-	}
 }

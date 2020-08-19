@@ -7,7 +7,7 @@
 	top: 100vh;
 }
 .content-main {
-	position: relative;
+	position: absolute;
 	width: 85.42vw;
 	margin-left: 7.32%;
 	right: 7.32%;
@@ -40,7 +40,7 @@
 	height: 12.96vh;
 	overflow: visible;
 	text-align: left;
-	top: 62.87vh;
+	top: 62.87vh;	
 }
 
 .statistics .stat {
@@ -87,13 +87,4 @@
 #stat4 {
 	display: inline-block;
 	text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-.About_us{
-	top:100.106%;
-}
-.content{
-	top:10%;
-}
 }
