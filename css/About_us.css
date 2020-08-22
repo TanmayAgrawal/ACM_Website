@@ -9,8 +9,7 @@
 .content-main {
 	position: relative;
 	width: 85.42vw;
-	margin-left: 7.32%;
-	right: 7.32%;
+	margin:auto;
 	margin-top: 11.39vh;
 	height: 41.85vh;
 	overflow: visible;
@@ -18,82 +17,78 @@
 }
 
 .content-main .title {
-	width: 24.07vw;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 4.63vh;
+	font-size: 5vh;
 }
 
 .content-main .content {
 	margin : 0 auto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 3.7vh;
+    font-size: 3.7vh;
+    line-height: 4vh;
 }
 
 .statistics {
-	position: absolute;
-	margin-left: 19.30%;
-	right: 19.30%;
-	width: 61.41vw;
-	height: 12.96vh;
+    padding: 10vh;
+    margin:auto;
+	width: 80vw;
 	overflow: visible;
-	text-align: left;
-	top: 62.87vh;
+    text-align: left;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .statistics .stat {
-	width: 11.05vw;
-	height: 100%;
+    width: 10vw;
+    margin:auto;
+    height: 100%;
+    display: inline-block;
+	text-align: center;
 }
 
 .statistics .stat .value {
 	font-family: Iceland;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 6.48vh;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 8vh;
+	margin: auto;
 }
 
 .statistics .stat .placeholder {
 	font-family: Josefin Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 3.33vh;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 4vh;
+	margin: auto;
 }
 
-#stat1 {
-	margin-right: 8%;
-	display: inline-block;
-	text-align: center;
-}
-
-#stat2 {
-	margin-right: 8%;
-	display: inline-block;
-	text-align: center;
-}
-
-#stat3 {
-	margin-right: 8%;
-	display: inline-block;
-	text-align: center;
-}
-
-#stat4 {
-	display: inline-block;
-	text-align: center;
-}
 
 @media only screen and (max-width: 768px) {
-.About_us{
-	top:100.106%;
-}
-.content{
-	top:10%;
-}
+    .About_us{
+        top:100.106%;
+    }
+    .content-main .content{
+        top:10%;
+        font-size: 2vh;
+        letter-spacing: 0.1px;
+        line-height: 3vh;
+    }
+    .statistics {
+        width: 90vw;
+        padding: 10vh 5vw;
+        flex-wrap: wrap;
+    }
+    .statistics .stat{
+        width: min-content;
+    }
+    .statistics .stat .value{
+        font-size:5vh;
+    }
+    .statistics .stat .placeholder{
+        font-size: 2.5vh;
+    }
 }
