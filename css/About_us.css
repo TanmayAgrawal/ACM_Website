@@ -7,7 +7,7 @@
 	top: 100vh;
 }
 .content-main {
-	position: relative;
+	position: absolute;
 	width: 85.42vw;
 	margin:auto;
 	margin-top: 11.39vh;

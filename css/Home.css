@@ -99,7 +99,6 @@ body{
 	top: 30.56%;
 	overflow: visible;
 }
-
 #BITS-ACM_ {
 	filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 1));
 	overflow: hidden;
@@ -130,7 +129,6 @@ body{
 	font-size: 2.604167vw;
 	color: rgba(0,200,255,1);
 }
-
 #navbar{
 	height: 25vh;
 }
@@ -218,7 +216,6 @@ body{
 	font-weight: normal;
 	font-size: 1.875vw;
 }
-
 
 #ID3d_logo {
 	position: absolute;
