@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Web 1920 – 1</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Home.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/About_us.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/SIG.css"/>
@@ -13,10 +14,15 @@
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Events.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Team.css"/>
 </head>
+
 <body>
 	<div id="Web_1920__1">
 		<svg class="Rectangle_8">
 			<rect id="Rectangle_8" rx="0" ry="0" x="0" y="0" width="100%" height="100%">
+			</rect>
+		</svg>
+		<svg id="Rectangle_8_mobile_outer">
+			<rect id="Rectangle_8_mobile" rx="0" ry="0" x="0" y="0" width="100%" height="100%">
 			</rect>
 		</svg>
 		<svg class="Rectangle_28_i">
@@ -27,10 +33,59 @@
 			<rect id="Rectangle_28_i" rx="0" ry="0" x="0" y="0" width="100%" height="100%">
 			</rect>
 		</svg>
+
+		<script>
+			
+			function show_menu()
+			{
+				var x = document.getElementById("Rectangle_8_mobile_outer");
+				x.style.visibility='visible';
+				var y = document.getElementById("Close");
+				y.style.visibility='visible';
+				var z = document.getElementById("Menu_bars");
+				z.style.visibility='hidden';
+				var a = document.getElementById("Blog");
+				a.style.visibility='visible';
+				var b = document.getElementById("Home");
+				b.style.visibility='visible';
+				var c = document.getElementById("SIG");
+				c.style.visibility='visible';
+				var d = document.getElementById("Events");
+				d.style.visibility='visible';
+				var e = document.getElementById("Achievements_");
+				e.style.visibility='visible';
+				var f = document.getElementById("Group_1_n");
+				f.style.backgroundColor='rgba(0,0,0,0)';
+
+			}
+			function hide_menu()
+			{
+				var x = document.getElementById("Rectangle_8_mobile_outer");
+				x.style.visibility='hidden';
+				var y = document.getElementById("Close");
+				y.style.visibility='hidden';
+				var z = document.getElementById("Menu_bars");
+				z.style.visibility='visible';
+				var a = document.getElementById("Blog");
+				a.style.visibility='hidden';
+				var b = document.getElementById("Home");
+				b.style.visibility='hidden';
+				var c = document.getElementById("SIG");
+				c.style.visibility='hidden';
+				var d = document.getElementById("Events");
+				d.style.visibility='hidden';
+				var e = document.getElementById("Achievements_");
+				e.style.visibility='hidden';
+				var f = document.getElementById("Group_1_n");
+				f.style.backgroundColor='rgba(0,0,0,0.9)';
+			}
+		</script>
 		
 		<div>
-			<div id="navbar">				
+			<div id="navbar">
 				<div id="Group_1_n">
+					<div id='Menu_bars' onclick="show_menu()"><i class="fa fa-bars"></i></div>
+					<div id='Close' onclick="hide_menu()"><i class="fa fa-times"></i></div>
 					<div id="Home">
 						<span>Home</span>
 					</div>
@@ -41,7 +96,7 @@
 						<span>Events</span>
 					</div>
 					<div id="Achievements_">
-						<span>Achievements</span><br>
+						<span>Achievements</span>
 					</div>
 					<div id="Blog">
 						<span>Blog</span>
