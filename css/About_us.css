@@ -32,20 +32,37 @@
 
 .statistics {
 	padding: 10vh;
-    margin:auto;
+  margin:auto;
 	width: 80vw;
 	overflow: visible;
 	text-align: left;
-    display: flex;
-    justify-items: center;
-    align-items: center;	
+  display: flex;
+  justify-items: center;
+  align-items: center;	
 }
 
 .statistics .stat {
 	width: 10vw;
-    margin:auto;
-    height: 100%;
-    display: inline-block;
+    font-size: 3.7vh;
+    line-height: 4vh;
+}
+
+.statistics {
+  padding: 10vh;
+  margin:auto;
+	width: 80vw;
+	overflow: visible;
+  text-align: left;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.statistics .stat {
+  width: 10vw;
+  margin:auto;
+  height: 100%;
+  display: inline-block;
 	text-align: center;
 }
 

@@ -70,3 +70,20 @@
 		width: 100%;
 	}
 }
+
+
+@media only screen and (max-width: 768px){
+    #Events_heading{
+        font-size:5vh ;
+        height: 6vh;
+    }
+    #Events_desc{
+        font-size:2vh ;
+        line-height: 4vh;
+    }
+    #Events_Learn_more_button{
+        font-size:2vh ;
+        width: 40vw;
+        height: 6vh;
+	}
+}
