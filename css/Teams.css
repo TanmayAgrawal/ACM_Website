@@ -1,0 +1,80 @@
+.outerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background: transparent linear-gradient(180deg, #00151d 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainHeading {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 6vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  opacity: 1;
+}
+
+.mainMembers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+.mainMember {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.memberImageContainer {
+  width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.mainMember > .name {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 2vh;
+}
+
+.mainMember > .position {
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+.mainMember > .iconsContainer{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.iconsContainer > .iconContainer{
+  height: 3vh;
+  width: 2vw;
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailIcon{
+  height: 100%;
+  width: 100%;
+}
