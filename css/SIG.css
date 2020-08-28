@@ -69,3 +69,19 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (max-width: 768px){
+    #SIG_heading{
+        font-size:5vh ;
+        height: 6vh;
+    }
+    #SIG_desc{
+        font-size:2vh ;
+        line-height: 4vh;
+    }
+    #SIG_Learn_more_button{
+        font-size:2vh ;
+        width: 40vw;
+        height: 6vh;
+	}
+}
