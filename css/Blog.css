@@ -27,6 +27,17 @@
 	--web-application: true;
 	--web-enable-deep-linking: true;
 }
+#Rectangle_8 {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_8 {
+	position: fixed;
+	overflow: visible;
+	width: 100vw;
+	height: 15%;
+	left: 0%;
+	top: 0%;
+}
 /* # {
 	position: absolute;
 	width: 1920px;

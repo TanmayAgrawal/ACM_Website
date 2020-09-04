@@ -60,7 +60,7 @@ body{
 	position: fixed;
 	overflow-x: hidden;
 	width: 100vw;
-	height: 14.26%;
+	height: 15%;
 	left: 0%;
 	top: 0%;
 }
@@ -139,7 +139,7 @@ body{
 }
 #Group_1_n {
 	position: fixed;
-	width: 98vw;
+	width: 99.1vw;
 	height: 15%;
 	left: -0.26%;
 	overflow: visible;
@@ -303,7 +303,10 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-	
+	#Group_1_n{
+		width: 100vw;
+		height: 12%;
+	}
 	#Menu_bars{
 		top:10%;
 		right:5%;
