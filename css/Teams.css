@@ -1,0 +1,195 @@
+body{
+  overflow-x: hidden;
+}
+.outerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 100vh;
+  background: transparent linear-gradient(180deg, #00151d 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mainHeading {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 6vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  opacity: 1;
+}
+
+.mainMembers{
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mainMembers > .list1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+.mainMember {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.memberImageContainer {
+  width: 100%;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.mainMember > .name {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 3vh;
+  margin-top: 2vh;
+}
+
+.mainMember > .position {
+  font-family: "Open Sans", sans-serif;
+  color: #c6c6c6;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+.mainMember > .iconsContainer{
+  margin-top: 2vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.iconsContainer > .iconContainer{
+  width: 2vw;
+  border-radius: 7px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailIcon{
+  height: auto;
+  width: 100%;
+}
+
+.mainMembers > .list2{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.mainMembers > .list3{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembersHeadingContainer{
+  width: 100vw;
+  padding-left: 15vw;
+  height: 7vh;
+  display: flex;
+  margin-bottom: 10vh;
+}
+
+.coreMembersHeading{
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  letter-spacing: 0px;
+  font-size: 6vh;
+  height: 100%;
+  border-bottom: 4px solid #059FC9;
+}
+
+.coreMembers{
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.coreMembers > .list1{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list2{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list3{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list4{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list5{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list6{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.coreMembers > .list7{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
