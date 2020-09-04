@@ -53,8 +53,8 @@ body{
 	--web-enable-deep-linking: true;
 }
 #Rectangle_8 {
-    fill: rgba(0,0,0,1);
-    width: 100vw;
+	fill: rgba(0,0,0,1);
+  width: 100vw;
 }
 .Rectangle_8 {
 	position: fixed;
@@ -67,7 +67,6 @@ body{
 #Rectangle_28_i {
 	fill: url(#Rectangle_28_i);
 }
-
 .Rectangle_28_i {
 	position: absolute;
 	overflow: visible;
@@ -76,11 +75,9 @@ body{
 	left: 0%;
 	top: 14.26%;
 }
-
 #Footer_Rectangle {
 	fill: url(#Rectangle_28_i);
 }
-
 .Footer_Rectangle {
 	position: absolute;
 	overflow: visible;
@@ -132,7 +129,6 @@ body{
 #navbar{
 	height: 25vh;
 }
-
 #logo {
 	position: absolute;
 	width: 27.812%;
@@ -141,7 +137,6 @@ body{
 	top: -8vh;
 	overflow: visible;
 }
-
 #Group_1_n {
 	position: fixed;
 	width: 98vw;
@@ -156,12 +151,12 @@ body{
 	top: 45.855%;
 	position: absolute;
 	overflow: visible;
-	width: 5.423%;
 	white-space: nowrap;
 	text-align: center;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 1.875vw;
+	visibility: visible;
 }
 #SIG {
 	opacity: 0.7;
@@ -169,12 +164,12 @@ body{
 	top: 45.855%;
 	position: absolute;
 	overflow: visible;
-	width: 3.275%;
 	white-space: nowrap;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
+	visibility: visible;
 }
 #Events {
 	opacity: 0.7;
@@ -182,12 +177,12 @@ body{
 	top: 45.855%;
 	position: absolute;
 	overflow: visible;
-	width: 5.85235%;
 	white-space: nowrap;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
+	visibility: visible;
 }
 #Achievements_ {
 	opacity: 0.7;
@@ -195,12 +190,12 @@ body{
 	top: 45.855%;
 	position: absolute;
 	overflow: visible;
-	width: 11.8658%;
 	white-space: nowrap;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
+	visibility: visible;
 }
 #Blog {
 	opacity: 0.7;
@@ -208,15 +203,14 @@ body{
 	top: 45.855%;
 	position: absolute;
 	overflow: visible;
-	width: 3.9195%;
 	height: inherit;
 	white-space: nowrap;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.875vw;
+	visibility: visible;
 }
-
 #ID3d_logo {
 	position: absolute;
 	width: 10.104%;
@@ -224,7 +218,12 @@ body{
 	left: 72.5%;
 	top: 33.148%;
 	overflow: visible;
+	visibility: visible;
+} 
+
+
 }
+
 @media only screen and (min-width: 768px) and (max-width: 998px){
     .content-main .content{
         font-size:2.7vh ;
@@ -276,5 +275,90 @@ body{
 		height: 29.204%;
 		margin-left: -9.541%;
 		overflow: visible;
+	}
+}
+
+
+#Rectangle_8_mobile {
+	fill: rgba(0,0,0,0.9);
+}
+
+#Rectangle_8_mobile_outer{
+    position: fixed;
+	overflow: visible;
+	width: 60%;
+	height: 100%;
+	right: 0%;
+    top: 0%; 
+	z-index: 9998;
+	visibility: hidden;
+}
+
+#Menu_bars{
+	visibility: hidden;
+}
+
+#Close{
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	#Menu_bars{
+		top:10%;
+		right:5%;
+		left:auto;
+		overflow: visible;
+		position: absolute;
+		font-size: 200%;
+		visibility: visible;
+	}
+	#Close{
+		top:10%;
+		right:5%;
+		left:auto;
+		overflow: visible;
+		position: absolute;
+		font-size: 250%;
+		visibility: hidden;
+	}
+
+	#Rectangle_8_mobile_outer{
+		visibility: hidden;
+	}
+	#Home{
+		top: 106.666%;
+		font-size: 2em;
+		left:auto;
+		right:0%;
+		visibility: hidden;
+	}
+	#SIG{
+		top:156.666%;
+		font-size: 2em;
+		left:auto;
+		right:0%;
+		visibility: hidden;
+	}
+	#Events{
+		top:206.666%;
+		font-size: 2em;
+		left:auto;
+		right:0%;
+		visibility: hidden;
+	}
+	#Achievements_{
+		top:256.666%;
+		font-size: 2em;
+		left:auto;
+		right:0%;
+		visibility: hidden;
+	}
+	#Blog{
+		top:306.666%;
+		font-size: 2em;
+		left:auto;
+		right:0%;
+		visibility: hidden;
 	}
 }
