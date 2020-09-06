@@ -1,8 +1,8 @@
 #Team_content{
-	position: absolute;
-	top: 400vh;
-	width: 98vw;
-	height: 85vh;
+    position: relative;
+    background:linear-gradient(#00151D,#000000);
+	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -11,7 +11,9 @@
 	box-sizing: border-box;
 }
 #Team_heading{
-	font: bold 8vh/10vh Josefin Sans;
+	font-size:9vh;
+    font-weight:700;
+    text-align: center;
 }
 #Team_img{
 	width:75vw;
@@ -25,5 +27,8 @@
 	#Team_img{
 		width:100vw;
 		padding: 5vw;
-	}
+    }
+    #Team_content{
+        min-height: 70vh;
+    }
 }
