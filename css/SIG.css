@@ -1,7 +1,8 @@
 #SIG_content{
-	position: absolute;
-	top: 200vh;
-	right: 0;
+    position: relative;
+    background:linear-gradient(#000000,#00151D);
+	width: 100%;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	text-align: end;
@@ -16,7 +17,8 @@
 #SIG_heading{
 	position: relative;
 	top: 10vh;
-	font: Bold 8vh/10vh Josefin Sans;
+	font-size:8vh;
+	font-weight:700;
 	letter-spacing: 0px;
 	padding-right: 5vw;
 }
@@ -43,7 +45,8 @@
 	font-weight: 100;
 	border-radius: 50px;
 	cursor: pointer;
-	background: rgba(05,160,217,0.52) 0% 0% padding-box;
+    background: rgba(05,160,217,0.52) 0% 0% padding-box;
+    outline: none;
 }
 #SIG_img{
 	position: relative;
@@ -66,7 +69,8 @@
 		top:80vh
 	}
 	#SIG_img{
-		width: 100%;
+        max-width: 100%;
+        min-width: 75%;
 	}
 }
 
@@ -76,11 +80,11 @@
         height: 6vh;
     }
     #SIG_desc{
-        font-size:2vh ;
+        font-size:2.5vh ;
         line-height: 4vh;
     }
     #SIG_Learn_more_button{
-        font-size:2vh ;
+        font-size:2.5vh ;
         width: 40vw;
         height: 6vh;
 	}

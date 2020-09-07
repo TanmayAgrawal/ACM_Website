@@ -1,15 +1,25 @@
 .About_us {
-	overflow: visible;
-	position: absolute;
+    position: relative;
+    background:linear-gradient(#00151D,#000000);
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	left: 0%;
-	top: 100vh;
+    padding-top: 15vh;
+    --web-view-name: About Us;
+	--web-view-id: About Us;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
 }
 .content-main {
+    position: relative;
 	width: 85.42vw;
 	margin:auto;
-	margin-top: 11.39vh;
 	height: 41.85vh;
 	overflow: visible;
 	text-align: center;
@@ -18,8 +28,8 @@
 .content-main .title {
 	text-align: center;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 5vh;
+	font-size:6vh;
+	font-weight:700;
 }
 
 .content-main .content {
@@ -88,13 +98,13 @@
     }
     .content-main .content{
         top:10%;
-        font-size: 2vh;
+        font-size: 2.5vh;
         letter-spacing: 0.1px;
         line-height: 3vh;
     }
     .statistics {
         width: 90vw;
-        padding: 10vh 5vw;
+        padding: 8vh 5vw;
         flex-wrap: wrap;
     }
     .statistics .stat{

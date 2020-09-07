@@ -1,0 +1,227 @@
+.Achievement_content{
+    position: relative;
+    background:linear-gradient(#000000,#00151D);
+	width: 100vw;
+    overflow: visible;
+    min-height: 100vh;
+    border-bottom:0.1px solid #00151D;
+}
+.Achievements_Heading {
+    text-align: center;
+    margin: auto;
+    padding:5vh 0;
+    width: 100vw;
+	font-size:8vh;
+	font-weight:700;
+    justify-content: center;
+}
+.Achievement_List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    flex-flow: column;
+}
+.Achievement_Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 30vh;
+    padding: 5vh 0;
+}
+.Achievement_Img{
+    min-width: 20vw;
+    max-width: 35vw;
+    max-height: fit-content;
+    padding: 2vh 2vw;
+}
+.Achievement_Img img{
+    width: 100%;
+}
+.Achievement_Desc{
+    font-size:4vh ;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 5vh;
+}
+
+@media only screen and (max-width:1400px){
+    .Achievement_Img{
+        min-width: 20vw;
+    }
+}
+@media only screen and (max-width:768px){
+    .Achievements_Heading {
+        font-size:7vh ;
+    }
+    .Achievement_Item:nth-child(even){
+        flex-flow: column;
+    }
+    .Achievement_Item:nth-child(odd){
+        flex-flow: column-reverse;
+    }
+    .Achievement_Img{
+        width: 60vw;
+    }
+    .Achievement_Desc{
+        text-align: center;
+    }
+}
+
+@media screen and (max-aspect-ratio: 3/5) {  
+    .Achievements_Heading{
+        font-size: 5vh;
+    }
+    .Achievement_Desc{
+        font-size: 4vh;
+    }
+
+}
+
+.footer_headings{
+    font-size:4vh;
+    font-weight: 700;
+}
+
+.footer_text{
+    line-height: 3.5vh;
+}
+
+
+
+
+
+
+
+footer {
+    position: relative;
+    background:linear-gradient(#000000,#00151D);
+    width: 100vw;
+    color: #fff;
+    padding: 3vh;
+}
+.social_media_handles_r {
+    display:none;
+}
+footer .centered {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .centered .footer-contact {
+  width: 24.58vw;
+  font-size: 2.5vh;
+  text-align: center;
+  margin-right: 9.32vw;
+}
+.footer-contact h3 {
+    font-size: 3.7vh;
+}
+
+.footer-links-holder {
+  width: 18.33vw;
+  position: relative;
+  float: left;
+  margin: 0;
+  font-size: 2.5vh;
+  margin-left: 9.53125vw;
+}
+.footer-links-holder h3 {
+    font-size: 3.7vh;
+}
+.social_media_handles img {
+    height:4.17vw;
+    width: 4.17vw;
+    max-height: 80px;
+    max-width: 80px;
+    min-width: 21px;
+    min-width: 21px;
+}
+.social_media_handles_r img {
+    height:4.17vw;
+    width: 4.17vw;
+    max-height: 80px;
+    max-width: 80px;
+    min-width: 21px;
+    min-height: 21px;
+} 
+
+/* Responsive Tablet Sizes */
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+    footer .centered {
+        flex-wrap: wrap;
+    }
+    footer .centered .footer-contact {
+        width: 100vw;
+        padding: 0 20px;
+    }
+}
+/* Responsive Mobile Sizes */
+@media only screen and (max-width: 998px) {
+    .footer-links-holder, .social_media_handles {
+        display: none;
+    }
+    .social_media_handles_r {
+        text-align: center;
+    }
+    div.social_media_handles_r {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    footer .centered .footer-contact {
+        width: 100vw;
+        margin: 0;
+    }
+}
+/* social_media_handles Icons */
+.social_media_handles {
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.social_media_handles a {
+    display: inline-block;
+    margin: 1.95vw;
+    width: 4.17vw;
+    height: 4.17vw;
+    vertical-align: middle;
+}
+.social_media_handles_r a {
+    display: inline-block;
+    margin: 1.95vw;
+    width: 4.17vw;
+    height: 4.17vw;
+    vertical-align: middle;
+    text-align: center;
+}
+footer h3 {
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+footer p {
+    letter-spacing: 0.05em;
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #65c2ed;
+}
+
+/* Misc CSS */
+.clearfix:before, .clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    clear: both;
+}
