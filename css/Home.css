@@ -345,6 +345,7 @@ button:active{
 		left:auto;
 		right:0%;
 		visibility: hidden;
+		padding-right: 3%;
 	}
 	#SIG{
 		top:156.666%;
@@ -352,6 +353,7 @@ button:active{
 		left:auto;
 		right:0%;
 		visibility: hidden;
+		padding-right: 3%;
 	}
 	#Events{
 		top:206.666%;
@@ -359,6 +361,7 @@ button:active{
 		left:auto;
 		right:0%;
 		visibility: hidden;
+		padding-right: 3%;
 	}
 	#Achievements_{
 		top:256.666%;
@@ -366,6 +369,7 @@ button:active{
 		left:auto;
 		right:0%;
 		visibility: hidden;
+		padding-right: 3%;
 	}
 	#Blog{
 		top:306.666%;
@@ -373,6 +377,7 @@ button:active{
 		left:auto;
 		right:0%;
 		visibility: hidden;
+		padding-right: 3%;
 	}
 }
 
