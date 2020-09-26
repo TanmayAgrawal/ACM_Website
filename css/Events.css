@@ -19,7 +19,8 @@
 	font-size:8vh;
 	font-weight:700;
 	letter-spacing: 0px;
-	padding-right: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 3vh;
 }
 #Events_desc{
     position: relative;
@@ -27,7 +28,8 @@
 	height: fit-content;
 	font-size: 4vh;
 	padding: 2vh;
-	opacity: 0.72;
+    opacity: 0.72;
+    text-align: justify;
 }
 #Events_Learn_more{
 	position: relative;
@@ -78,6 +80,7 @@
     #Events_heading{
         font-size:5vh ;
         height: 6vh;
+        text-align: center;
     }
     #Events_desc{
         font-size:2.5vh ;
