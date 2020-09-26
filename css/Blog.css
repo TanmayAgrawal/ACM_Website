@@ -41,6 +41,9 @@
     padding: 2vw;
     overflow: hidden;
 }
+.blog_item a{
+    text-decoration: none;
+}
 .blog_author{
 	text-align: left;
 	font-family: Segoe UI Historic;
