@@ -134,7 +134,7 @@ body{
 }
 #logo {
 	position: absolute;
-	width: 27.812%;
+	width: 25%;
 	height: 30vh;
 	left: 0%;
 	top: -8vh;
@@ -307,6 +307,14 @@ button:active{
 }
 
 @media only screen and (max-width: 768px) {
+	#logo {
+		position: absolute;
+		width: 25vh;
+		height: 25vh;
+		left: 0%;
+		top: -8vh;
+		overflow: visible;
+	}
 	
 	#Menu_bars{
 		top:10%;
