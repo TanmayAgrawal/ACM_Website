@@ -351,7 +351,7 @@ button:active{
 	}
 	#Home{
 		top: 106.666%;
-		font-size: 2em;
+		font-size: 3em;
 		left:auto;
 		right:0%;
 		visibility: hidden;
@@ -359,7 +359,7 @@ button:active{
 	}
 	#SIG{
 		top:156.666%;
-		font-size: 2em;
+		font-size: 3em;
 		left:auto;
 		right:0%;
 		visibility: hidden;
@@ -367,7 +367,7 @@ button:active{
 	}
 	#Events{
 		top:206.666%;
-		font-size: 2em;
+		font-size: 3em;
 		left:auto;
 		right:0%;
 		visibility: hidden;
@@ -375,7 +375,7 @@ button:active{
 	}
 	#Achievements_{
 		top:256.666%;
-		font-size: 2em;
+		font-size: 3em;
 		left:auto;
 		right:0%;
 		visibility: hidden;
@@ -383,7 +383,7 @@ button:active{
 	}
 	#Blog{
 		top:306.666%;
-		font-size: 2em;
+		font-size: 3em;
 		left:auto;
 		right:0%;
 		visibility: hidden;
