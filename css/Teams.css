@@ -58,12 +58,17 @@ body{
   width: 12vw;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-around;
   flex-direction: column;
-  height: max-content;
   margin: 1vw;
 }
 
+.mainMembers > .list2>div{
+    height: 100%;
+}
+.mainMembers{
+    height: 100%;   
+}
 .memberImageContainer {
     width: 100%;
     height: 12vw;
