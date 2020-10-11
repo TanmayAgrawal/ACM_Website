@@ -154,7 +154,7 @@ footer .centered .footer-contact {
     }
 }
 /* Responsive Mobile Sizes */
-@media only screen and (max-width: 998px) {
+@media only screen and (max-width: 992px) ,(max-aspect-ratio:1/1){
     .footer-links-holder, .social_media_handles {
         display: none;
     }

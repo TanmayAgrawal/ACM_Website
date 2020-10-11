@@ -35,13 +35,13 @@
             <a href="./SIG.html">SIG</a>
         </div>
         <div id="Events">
-            <a href="#">Events</a>
+            <a href="./Events.html">Events</a>
         </div>
         <div id="Achievements_">
             <a href="#">Initiatives</a><br>
         </div>
         <div id="Blog">
-            <a href="https://blog.bitsacm.in">Blog</a>
+            <a href="https://blog.bitsacm.in"  target="_blank">Blog</a>
         </div>
         <img id="logo" src="skins/logo.png" etsrcs="skins/logo.png 1x, skins/logo@2x.png 2x">
     </div>
@@ -965,7 +965,9 @@
     </footer>
 </body>
 <script>
-
+    window.onorientationchange=()=>{
+        window.location.reload(); 
+    }
     function show_menu()
     {
         var x = document.getElementById("Rectangle_8_mobile_outer");

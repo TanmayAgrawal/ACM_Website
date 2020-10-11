@@ -48,6 +48,9 @@
     background: rgba(05,160,217,0.52) 0% 0% padding-box;
     outline: none;
 }
+#Events_Learn_more_button a{
+    text-decoration: none;
+}
 #Events_img{
 	position: relative;
 	padding-left: 0 2vw;
