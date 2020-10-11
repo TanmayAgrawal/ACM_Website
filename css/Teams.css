@@ -3,9 +3,7 @@ body{
   text-align: center;
 }
 .outerContainer {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100vw;
   box-sizing: border-box;
   height: auto;
@@ -16,6 +14,7 @@ body{
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  padding-top:15vh ;
 }
 
 .mainHeading {
@@ -51,9 +50,10 @@ body{
   width: 80%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
+
 .mainMember {
   width: 12vw;
   display: flex;
@@ -61,6 +61,7 @@ body{
   justify-content: space-around;
   flex-direction: column;
   margin: 1vw;
+  height: inherit!important;
 }
 
 .mainMembers > .list2>div{
@@ -121,7 +122,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -129,7 +130,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -137,7 +138,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -172,7 +173,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -180,7 +181,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -188,7 +189,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -196,7 +197,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -204,7 +205,7 @@ body{
   width: 90%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -212,7 +213,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -220,7 +221,7 @@ body{
   width: 80%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   margin: 5vh 0;
 }
 
@@ -237,4 +238,27 @@ body{
     .mainMember>.position{
         font-size: 1.5vh;
     }
+}
+@media screen and (min-aspect-ratio: 7/5) and (max-width:992px){  
+    .mainMember>.name{
+        font-size: 3vh;
+    }
+    .mainMember>.position{
+        font-size: 2.5vh;
+    }
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000000;
+}
+body::-webkit-scrollbar-track { 
+    background : #39535ea1;
+    border-radius: 12px;
+}
+body::-webkit-scrollbar-thumb {
+    background : #FFEAE455;
+    border-radius: 10px;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.5);
 }

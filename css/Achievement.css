@@ -86,13 +86,8 @@
 
 .footer_text{
     line-height: 3.5vh;
+    text-align: justify;
 }
-
-
-
-
-
-
 
 footer {
     position: relative;

@@ -1,0 +1,87 @@
+@font-face{
+    font-family: Josefin Sans;
+    src: url(../fonts/static/JosefinSans-Regular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	font-family: Josefin Sans;
+    color: rgb(255,255,255);
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(#00151d, #000);;
+}
+.content {
+    position: relative;
+    width: 100vw;
+    padding: 20vh 10vw 5vh;
+}
+
+#Club_Milestones_title { 
+    font-size: 8.33vh;
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.Milestone_container{
+    display: flex;
+    padding: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.Milestone_container>div{
+    margin: 2vw;
+}
+.Milestone_title{
+    font-size: 6vh;
+    font-weight: 800;
+    padding: 5%;
+    text-align: center;
+}
+
+.Milestone_content{
+    display: flex;
+    flex-flow: column;
+    width: 50vw;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+.Milestone_img{
+    width: 30vw;
+}
+
+.Milestone_img img{
+    height: 100%;
+    width: 100%;
+}    
+
+@media only screen and (max-width: 768px) {
+    .Milestone_container{
+        flex-flow: column;
+    }
+    #Milestone_2>div{
+        flex-flow: column-reverse;
+    }
+    .Milestone_content{
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+    .Milestone_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-aspect-ratio: 7/5) and (max-width:992px){  
+    .Milestone_container{
+        flex-flow: column;
+    }
+    #Milestone_2>div{
+        flex-flow: column-reverse;
+    }
+
+}

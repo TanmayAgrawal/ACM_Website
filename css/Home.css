@@ -313,7 +313,7 @@ button:active{
 	visibility: hidden;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px),(max-aspect-ratio:1/1) {
 	#BITS-ACM_{
         font-size: 10vh;
     }
