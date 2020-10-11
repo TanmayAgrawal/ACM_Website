@@ -13,7 +13,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  background: transparent linear-gradient(180deg, #00151d 0%, #000000 100%);
+  background: transparent linear-gradient(180deg, #000000 0%, #00151d 100%);
   width: 100vw;
   min-height: 100vh;
   padding-top: 15vh;
