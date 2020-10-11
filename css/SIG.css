@@ -39,7 +39,7 @@
 	align-self: center;
 }
 #SIG_Learn_more_button{
-	width: 23vw;
+    width: 23vw;
 	height: 10vh;
 	text-align: center;
 	padding-top: 1vh;
@@ -49,6 +49,9 @@
 	cursor: pointer;
     background: rgba(05,160,217,0.52) 0% 0% padding-box;
     outline: none;
+}
+#SIG_Learn_more_button a{
+    text-decoration: none;
 }
 #SIG_img{
 	position: relative;
