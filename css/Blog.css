@@ -94,7 +94,7 @@
     margin: 3vh;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px),(max-aspect-ratio:1/1){
     #Blog_List>div{
         width: 40vw;
     }
@@ -120,8 +120,16 @@
         height: 6vh;
 	}
 }
-@media only screen and (max-width:568px){
+@media only screen and (max-width:568px),(max-aspect-ratio:1/1){
     .blog_img{
         height: 15vh;
     }   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    #Go_To_Blog_button{
+        font-size:3.5vh ;
+        width: 25vw;
+        height: 6vh;
+	}
 }

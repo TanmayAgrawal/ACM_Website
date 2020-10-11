@@ -10,3 +10,5 @@ For all the pages, use the % sizes as in home.html . They have been calculated v
 The XD file for the project is in the designs folder.
 
 https://tanmayagrawal.github.io/ACM_Website/
+
+The website is deployed at https://bitsacm.in/
