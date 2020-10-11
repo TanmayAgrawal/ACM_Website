@@ -37,7 +37,7 @@
             <a href="#">Events</a>
         </div>
         <div id="Achievements_">
-            <a href="#">Achievements</a><br>
+            <a href="#">Initiatives</a><br>
         </div>
         <div id="Blog">
             <a href="https://blog.bitsacm.in" target="_blank">Blog</a>
@@ -128,7 +128,9 @@
 </body>
 
 <script>
-
+    window.onorientationchange=()=>{
+        window.location.reload(); 
+    }
     function show_side_bar(elem)
     {
         parent=document.getElementById(elem.id);

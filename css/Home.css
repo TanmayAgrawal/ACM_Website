@@ -137,7 +137,8 @@ body{
 }
 #logo {
 	position: absolute;
-	height: 15vh;
+    height: 15vh;
+    left: 0;
 	top: -1vh;
 	overflow: visible;
 }
