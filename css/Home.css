@@ -137,10 +137,8 @@ body{
 }
 #logo {
 	position: absolute;
-	width: 27.812%;
-	height: 30vh;
-	left: 0%;
-	top: -8vh;
+	height: 15vh;
+	top: -1vh;
 	overflow: visible;
 }
 #Group_1_n {
@@ -156,7 +154,7 @@ body{
     text-decoration: none;
 }
 #Home {
-	left: 52%;
+	left: 53%;
 	top: 45%;
 	position: absolute;
 	overflow: visible;
@@ -169,7 +167,7 @@ body{
 }
 #SIG {
 	opacity: 0.7;
-	left: 61%;
+	left: 63%;
 	top: 45%;
 	position: absolute;
 	overflow: visible;
@@ -208,7 +206,7 @@ body{
 }
 #Blog {
 	opacity: 0.7;
-	left: 95%;
+	left: 93%;
 	top: 45%;
 	position: absolute;
 	overflow: visible;
@@ -318,13 +316,13 @@ button:active{
         font-size: 10vh;
     }
 	#Menu_bars{
-		top:10%;
+        top: 5vh;
 		right:5%;
 		left:auto;
 		overflow: visible;
 		position: absolute;
 		font-size: 200%;
-		visibility: visible;
+        visibility: visible;
 	}
 	#Close{
 		top:10%;
@@ -341,41 +339,41 @@ button:active{
 	}
 	#Home{
 		top: 106.666%;
-		font-size: 2em;
+		font-size: 4vh;
 		left:auto;
-		right:0%;
+		right:3%;
 		visibility: hidden;
 		padding-right: 3%;
 	}
 	#SIG{
 		top:156.666%;
-		font-size: 2em;
+		font-size: 4vh;
 		left:auto;
-		right:0%;
+		right:3%;
 		visibility: hidden;
 		padding-right: 3%;
 	}
 	#Events{
 		top:206.666%;
-		font-size: 2em;
+		font-size: 4vh;
 		left:auto;
-		right:0%;
+		right:3%;
 		visibility: hidden;
 		padding-right: 3%;
 	}
 	#Achievements_{
 		top:256.666%;
-		font-size: 2em;
+		font-size: 4vh;
 		left:auto;
-		right:0%;
+		right:3%;
 		visibility: hidden;
 		padding-right: 3%;
 	}
 	#Blog{
 		top:306.666%;
-		font-size: 2em;
+		font-size: 4vh;
 		left:auto;
-		right:0%;
+		right:3%;
 		visibility: hidden;
 		padding-right: 3%;
 	}

@@ -2,6 +2,13 @@ body {
   overflow-x: hidden;
 }
 
+#SIG{
+    opacity: 1;
+}
+#Home{
+    opacity: 0.7;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -32,7 +39,6 @@ body {
 }
 
 .heading {
-  font-family: "Open Sans", sans-serif;
   font-size: 4vw;
   color: white;
   margin: 5vh 0;
@@ -40,103 +46,52 @@ body {
 }
 
 .text {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2.5vh;
+  font-size: 3vh;
+  line-height: 4vh;
   color: white;
   margin-bottom: 10vh;
+  text-align: justify;
 }
 
 .rightContainer {
   margin-top: 10vh;
   width: 35%;
   display: flex;
-  padding-left: 10vw;
+  margin-left: 10vw;
   flex-direction: column;
 }
 
 .dateHeading {
-  font-family: "Open Sans", sans-serif;
-  font-size: 5vh;
+  font-size: 4.5vh;
   color: white;
 }
 
 .resourcesHeading {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.5vh;
+  font-size: 4.5vh;
+  line-height: 5.5vh;
   color: white;
   margin-top: 4vh;
 }
 
 .resource {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2vh;
+  font-size: 3vh;
+  line-height: 4vh;
   color: #00c4ff;
   margin: 0.5vh 0;
 }
 
 .contactHeading {
-  font-family: "Open Sans", sans-serif;
-  font-size: 3.5vh;
+  font-size: 4vh;
+  line-height: 5vh;
   color: white;
   margin-top: 4vh;
 }
 
 .contact {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2vh;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
   color: white;
   margin: 0.5vh 0;
-}
-
-@media only screen and (max-width: 750px) {
-  body {
-    overflow-x: hidden;
-  }
-  .container {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .dateHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.5vh;
-    color: white;
-  }
-
-  .resourcesHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2vh;
-    color: white;
-    margin-top: 4vh;
-  }
-
-  .resource {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5vh;
-    color: #00c4ff;
-    margin: 0.5vh 0;
-  }
-
-  .contactHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 2vh;
-    color: white;
-    margin-top: 4vh;
-  }
-
-  .contact {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5vh;
-    color: white;
-    margin: 0.5vh 0;
-  }
-
-  .rightContainer {
-    margin-top: 10vh;
-    width: 35%;
-    display: flex;
-    padding-left: 4vw;
-    flex-direction: column;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -173,23 +128,21 @@ body {
   }
 
   .heading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 5vw;
+      font-size: 5vw;
     color: white;
     margin: 4vh 0;
     font-weight: bold;
   }
 
   .text {
-    font: normal normal normal 15px/28px Open Sans;
     font-size: 4vw;
+    line-height: 4.5vw;
     font-weight: normal;
     color: white;
     margin-bottom: 5vh;
   }
 
   .rightContainer {
-    margin-top: 0vh;
     width: 100%;
     display: flex;
     padding-left: 10vw;
@@ -197,8 +150,7 @@ body {
   }
 
   .dateHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+      font-size: 4vw;
     color: white;
     font-weight: bold;
   }
@@ -207,7 +159,7 @@ body {
     display: flex;
     width: 100%;
     align-items: center;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
 
   .resourcesContainer {
@@ -215,33 +167,93 @@ body {
   }
 
   .resourcesHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+      font-size: 4vw;
     color: white;
     margin-bottom: 2vh;
   }
 
   .resource {
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+      font-size: 4vw;
     color: #00c4ff;
     margin: 0.5vh 0;
   }
 
   .contactHeading {
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+      font-size: 4vw;
     color: white;
     margin-bottom: 2vh;
   }
 
   .contact {
-    font-family: "Open Sans", sans-serif;
-    font-size: 4vw;
+      font-size: 4vw;
     color: white;
     margin: 0.5vh 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    .container {
+      width: 100%;
+      overflow-x: hidden;
+      flex-direction:column ;
+    }
+    .dateHeading {
+        font-size: 2.5vh;
+        line-height: 4vh;
+      color: white;
+    }
+  
+    .resourcesHeading {
+      font-size: 2vh;
+      line-height: 4vh;
+      color: white;
+      margin-top: 0vh;
+    }
+  
+    .resource {
+        font-size: 1.5vh;
+        line-height: 2vh;
+      color: #00c4ff;
+      margin: 0.5vh 0;
+    }
+  
+    .contactHeading {
+        font-size: 2vh;
+        line-height: 2.5vh;
+      color: white;
+      margin-top: 2vh;
+    }
+  
+    .contact {
+        font-size: 1.5vh;
+        line-height: 2vh;
+      color: white;
+      margin: 0.5vh 0;
+    }
+  
+    .leftContainer {
+        width: 90%;
+    }
+    .rightContainer {
+      margin: 5vh 0;
+      width: 100%;
+      display: flex;
+      margin-left: 15vw;
+      padding-left: 0;
+      flex-direction: column;
+    }
+    .text{
+        font-size: 2vh;
+        line-height: 3vh;
+        margin-bottom: 0;
+    }
+    .heading {
+      font-size: 4vh;
+    }  
+  }
 
 body::-webkit-scrollbar {
     width: 12px;
