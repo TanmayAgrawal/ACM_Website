@@ -60,7 +60,7 @@
 
 .sem{
     position: relative;
-    padding-top: 13%;
+    padding-top: 10%;
 
 }
 
@@ -123,8 +123,6 @@ footer{
         top:87%;
         font-size: 2.3em;
         left: auto;
-        padding-left: 30%;
-        padding-right: 30%;
     }
    
 }
