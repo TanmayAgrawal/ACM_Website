@@ -143,7 +143,7 @@ body {
   }
 
   .rightContainer {
-    width: 100%;
+    width: 80%;
     display: flex;
     padding-left: 10vw;
     flex-direction: column;
@@ -235,11 +235,11 @@ body {
     }
   
     .leftContainer {
-        width: 90%;
+        width: 89%;
     }
     .rightContainer {
       margin: 5vh 0;
-      width: 100%;
+      width: 80%;
       display: flex;
       margin-left: 15vw;
       padding-left: 0;
