@@ -1,0 +1,136 @@
+#Web_1920__1{
+    height:auto;
+}
+.Events {
+    position: fixed;
+    background:linear-gradient(#000000,#00151D);
+	width: 100%;
+    height: 100vh;
+    overflow: hidden scroll;
+	left: 0%;
+    padding-top: 15vh;
+    --web-view-name: Events;
+	--web-view-id: Events;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Event1 {
+    width:100%;
+    height: 100%;
+    position: relative;
+    top:5%;
+    left:8%;
+}
+
+#image1 {
+    position: absolute;
+    top: 10%;
+    width: 56.864%;
+    height: 44.629%;
+}
+
+#heading1 {
+    position: absolute;
+    top:0%;
+    font-size: 6vh;
+    font-weight: 500;
+}
+
+#content1 {
+    position: absolute;
+    font-size: medium;
+    top:60.851%;
+    width: 58.854%;
+    line-height: 1.5;
+}
+
+#side_bar{
+    position: absolute;
+    left: 78.78%;
+    top: 10%;
+}
+
+.sem{
+    position: relative;
+    padding-top: 13%;
+
+}
+
+#sub_event1{
+    position: relative;
+    display: none;
+    font-size: 0.7em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    left: 15%;
+    line-height: 1.8;
+}
+
+#sub_event2{
+    position: relative;
+    display: none;
+    font-size: 0.7em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    left: 15%;
+    line-height: 1.8;
+}
+
+
+footer{
+    position: absolute;
+    top:115%
+}
+
+@media only screen and (max-width: 768px) {
+
+    #Event1{
+        left: auto;
+        top: 2%;
+    }
+
+    #image1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 82.608%;
+            height: 27.483%;
+    }
+
+    #heading1 {
+        top: 30%;
+        font-size: 4vh;
+        left: 8%;
+    }
+    
+    #content1{
+        top: 33%;
+        padding: 8%;
+        text-align: left;
+        width: auto;
+        font-size: 2.3vh;
+        line-height: 1.4;
+    }
+
+   
+}
+
+.Events::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000000;
+}
+.Events::-webkit-scrollbar-track { 
+    background : #39535ea1;
+    border-radius: 12px;
+}
+.Events::-webkit-scrollbar-thumb {
+    background : #FFEAE455;
+    border-radius: 10px;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.5);
+}
