@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Events.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Team.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/Achievement.css"/>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/SIG_final.css"/>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="./css/EventPage.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -54,18 +55,28 @@
 
 	<div class="Events">
 	<div id="Event1">
+        <div id="heading1">
+			<span>CISCO Capture The Flag Workshop</span>
+		</div>
 		<img id="image1" src="./images/sig.png" ></img>
-			<span id="H1">Date: TBA</span>
-			<span id="H2_left">Resources</span>
-			<span id="H3_left">Repository<br>Slides</span>
-			<span id="H2_right">Contact</span>
-			<span id="H3_right">Name<br>9999999999</span>
-		<div id="heading1">
-			<span>Frontend SIG</span>
-		</div>
 		<div id="content1">
-			<span>This SIG aims at instilling interest for website development using various languages (HTML , CSS and JS) and frameworks. Frontend development involves designing the user interface as well as displaying various styles and animations on the elements of the webpage.<br><br>This series first covers basic aspects of HTML, CSS and later delves into the world of JavaScript. After teaching JavaScript, the lectures introduces the most used JavaScript frameworks such as React and Angular.</span>
-		</div>
+			<span>A two-day Talk + Workshop on Hacking conducted by Kaarthik Sivakumar & Shyam Sundar Ramaswami from #CISCO The participants got hand-on experience with running Kali Linux and got to work on actual malware!<br> BITS ACM thanks the whole team from CISCO for making this event a huge success. We hope to do more such events in the future!</span>
+        </div>
+        <div id="side_bar">
+            <div class="sem" id="sem1" onclick="show_side_bar(this)">
+                Sem 1, 2019
+                <div id="sub_event1">
+                    -Hour of Code<br>-Checkmate
+                </div>
+            </div>
+            
+            <div class="sem" id="sem2" onclick="show_side_bar(this)">
+                Sem 2, 2019
+                <div id="sub_event2">
+                    -Hour of Code<br>-Checkmate
+                </div>
+            </div>
+        </div>
 	</div>
 	<footer>
 		<div class="centered clearfix">
@@ -123,6 +134,20 @@
 </body>
 
 <script>
+
+    function show_side_bar(elem)
+    {
+        parent=document.getElementById(elem.id);
+        children=parent.children[0];
+        x=document.getElementById(children.id);
+        if(x.style.display=='block'){
+            x.style.display='none';
+        }
+        else{
+            x.style.display='block';
+        }
+
+    }
 
     function show_menu()
     {
